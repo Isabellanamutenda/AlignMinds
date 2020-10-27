@@ -45,6 +45,11 @@ margin-left: 620px;
 margin-top: -105px;
 
 }
+.carousel-indicators li {
+  width: 2px;
+  height: 5px;
+  border-radius: 100%;
+}
 .btn-primary{
 margin-left: 980px;
 margin-top: -40px;

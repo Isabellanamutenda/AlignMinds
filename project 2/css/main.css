@@ -8,11 +8,19 @@ body{
   padding: 50px 0;
 
 }
-.bottom-header h1{
-padding: 0;
-margin: 0;
-color: white;
+.top-header{
+  background-color: #fff;
+  padding: 15px 0;
+
 }
+.top-header h6{
+  padding: 0;
+  margin: 0;
+  }
+  .fa-calendar{
+margin-left: 400px;
+  }
+
 .bottom-header h1{
 color:white ;
 font-weight:bold;
@@ -20,8 +28,6 @@ letter-spacing: 0em;
 font-size: 40px;
 padding: 5px 0 0 0;
 margin: 0;
-line-height: 1.6em
-margin-bottom:-20px;
 }
 .btn-primary{
 margin-left: 980px;
@@ -70,47 +76,21 @@ color: blue;
   
 }
 
-h5 {
-  border-top: 8px dotted rebeccapurple;
-  width:30px;
-}
-.main {
-  font-family:Arial;
-  width:500px;
-  display:flex;
-  margin:0 auto;
-}
-
-h4 {
-    background: #fff;
-    color: #3498db;
-    font-size: 16px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
-    position: relative;
-    text-align: left;
-}
-.action{
-  display:flex;
-  margin:100px auto;
-  width:100%;
-  text-align:center;
-}
-.action a {
-  display:inline-flex;
-  padding:5px 10px; 
-  background:#f30;
-  color:#fff;
-  text-decoration:none;
-}
-.action a:hover{
-  background:#000;
-}
-
 .box9{
 margin-left: 680px;
   margin-top: -305px;
+}
+.hero{
+margin-left: 1150px;
+color: #40c72e;
+}
+.hero1{
+margin-left: 1150px;
+color: #40c72e;
+}
+.hero2{
+margin-left: 500px;
+color: #40c72e;
 }
 .btn-info{
 background-color: #0ccc4c;
@@ -126,7 +106,17 @@ h2{
 h3{
   font-size: 15px;
   font-weight: bold;
-  margin-left: 120px;
+  margin-left: 110px;
+}
+h4{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 110px;
+}
+h5{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 700px;
 }
 .parent{
 margin-top: -5px;
@@ -170,7 +160,7 @@ margin-top: 10px;
   box-shadow: #f7f5f5;
   box-shadow: #f7f5f5;
   margin-top: -40px;
-  background-color: #555;
+  background-color: #fff;
   box-shadow: #f5f7f2;
 }
 

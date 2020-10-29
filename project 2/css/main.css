@@ -204,10 +204,11 @@ hr {
 .fa-instagram{
   background: white;
   color: black;
-  border-radius: 50px;
+  border-radius: 30px;
   font-size: 12px;
   padding: 7px;
    margin-top: 0%;
+   margin-left: 90px;
 
   }
 
@@ -217,13 +218,17 @@ hr {
   background: white;
   color: black;
   padding: 6px;
-  border-radius: 50px;
+  border-radius: 30px;
   margin-left: 55px;
   font-size: 12px;
   margin-bottom: -2%;
+  margin-left: 135px;
 
 
 
+  }
+  .cont{
+    margin-left: -35px;
   }
   ul{
     display: flex;
@@ -233,9 +238,11 @@ hr {
   li{
 
     padding-right: 10px;
-    font-size: 12px;
+    font-size: 11px;
   color: white;
    margin-top: 2%;
+   margin-left: 30px;
+   /*word-spacing: 1em;*/
 
   }
 

@@ -420,6 +420,7 @@ hr {
   font-size: 12px;
   padding: 7px;
    margin-top: 0%;
+  
 
   }
 
@@ -440,6 +441,7 @@ hr {
   ul{
     display: flex;
     list-style-type: none;
+    font-size: 12px;
     
   }
   li{

@@ -133,6 +133,13 @@ color: #3feb78;
   margin-top: 48px;
   margin-left: 650px;
 }
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
 
 .btn-secondary{
 margin-right: 200px;
@@ -154,6 +161,7 @@ div#example2 {
 p{
   margin-left: 35px;
   margin-top: -30px;
+  font-size: 13px;
 }
 .fa-envelope-open{
   background: #2ef061;
@@ -292,9 +300,9 @@ div#example6 {
   padding: 10px;
   width: 280px;
   height: 100px;
-  margin-left: 68px;
+  margin-left: 50px;
   background-color: white;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 div#example7 {
   border: 2px solid;
@@ -420,7 +428,7 @@ hr {
   font-size: 12px;
   padding: 7px;
    margin-top: 0%;
-  
+
 
   }
 
@@ -434,10 +442,7 @@ hr {
   margin-left: 55px;
   font-size: 12px;
   margin-bottom: -2%;
-
-
-
-  }
+}
   ul{
     display: flex;
     list-style-type: none;

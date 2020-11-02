@@ -1,0 +1,167 @@
+body{
+   overflow-x:hidden; 
+}
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+#rcorners3 {
+  border-radius: 0px 30px 30px 5px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners1 {
+  border-radius: 30px 0px 0px 0px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#rcorners4 {
+  border-radius: 15px ;
+  
+}
+.fa-envelope-open{
+  background: #42cf68;
+  color: white;
+  padding: 5px;
+  border-radius: 35px;
+  margin-left:200px;
+  font-size: 12px;
+  margin-top:-200px;
+}
+.fa-mobile{
+  background: #42cf68;
+  color: white;
+  padding: 5px;
+  border-radius: 35px;
+}
+
+
+.footer{
+  color: #1c2a48;
+}
+
+.bi-envelope-open{
+
+color: #3feb78;
+}
+.bi-phone{
+margin-left: 2px;
+margin-top: 2px;
+color: #3feb78;
+}
+
+.carousel-indicators li {
+  width: 3px;
+  height: 8px;
+  border-radius: 100%;
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#262a41 ;
+  color: white;
+  padding:130px;
+ 
+  }
+
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+.rectangle1 {
+  height: 50px;
+  width: 280px;
+  margin-left: 780px;
+  border-radius: 15px;
+  /*margin-top: -50px;*/
+  background-color: #f5f7f2;
+  box-shadow: #f5f7f2;
+}
+.bi-search{
+margin-left: 800px;
+margin-top: -30px;
+}
+.bi-card-text{
+color: #46b9f2;
+margin-left: 1080px;
+margin-top: -30px;
+}
+h2{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 65px;
+  padding: 18px;
+
+}
+h4{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 310px;
+  padding: 18px;
+  margin-top: -60px;
+
+}
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.fa-instagram{
+  background: white;
+  color: black;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 4px;
+   margin-top: 0%;
+   margin-left: 0px;
+
+
+  }
+  .fa-facebook{
+  background: white;
+  color: black;
+  padding: 4px;
+  border-radius: 20px;
+  margin-left: 65px;
+  font-size: 12px;
+  margin-bottom: -2%;
+}
+  ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+    
+  }
+  li{
+
+    padding-right: 10px;
+    font-size: 12px;
+  color: white;
+   margin-top: 2%;
+
+  }
+
+
+
+
+

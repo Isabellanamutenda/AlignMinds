@@ -88,6 +88,10 @@ hr {
   border-style: inset;
   border-width: 1px;
 } 
+.map{
+  width: 500px;
+  height: 300px;
+}
 
 .bi-search{
 margin-left: 800px;

@@ -394,7 +394,9 @@ width: 130px;
 .box8{
   margin-left: 1160px;
 }
-footer {
+ 
+
+  footer {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -457,6 +459,16 @@ hr {
    margin-top: 2%;
 
   }
+  
 
+  /*@media(max-width: 600px){
+    .footerlogo, .about, .services, .contact, .company{
+        display:block ;
+        color:black ; 
+        padding:0px ;
+        margin: 0px ;
+    } 
+}
+*/
 
 
